@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script type="text/javascript" src="bundle.js"></script>
+
+  <title>Journal</title>
+</head>
+<body>
+  <div class="container">
+
+    <form id="journalForm">
+
+      <div class="form-group">
+        <label for="userTitle">Enter a title:</label>
+        <input id="userTitle" type="text" placeholder="Title here">
+      </div>
+
+      <div class="form-group">
+        <label for="userEntry">Enter your journal entry:</label>
+        <textarea class="form-control" id="userEntry" rows="3"></textarea>
+      </div>
+
+      <button id="journalButton" type="submit">Submit</button>
+    </form>
+  <div id="result"></div>
+</div>
+</body>
+</html>
